@@ -6,8 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint",
-    "test": "jest"
+    "lint": "next lint",
+    "test": "jest",
+    "prepare": "husky"
   },
   "dependencies": {
     "@google/genai": "^2.10.0",
@@ -24,8 +25,10 @@
     "eslint-config-next": "16.2.10",
     "eslint-plugin-jest": "^29.15.4",
     "eslint-plugin-security": "^4.0.1",
+    "husky": "^9.0.11",
     "jest": "^30.4.2",
     "jest-junit": "^16.0.0",
+    "lint-staged": "^15.2.7",
     "ts-node": "^10.9.2"
   }
 }
