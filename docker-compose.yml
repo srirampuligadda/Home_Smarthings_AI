@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  smartthings-gemini-bridge:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: smartthings-gemini-bridge
+    ports:
+      - "3000:3000"
+    volumes:
+      # Map logs directory for persistent simulation audit logs
+      - ./logs:/app/logs
+      # Map cache directory to persist Next.js caches or custom device cache
+      - ./cache:/app/cache
+      # Map env variables
+      - ./.env.local:/app/.env.local:ro
+    restart: unless-stopped
+    environment:
+      - NODE_ENV=production
