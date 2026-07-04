@@ -22,7 +22,7 @@ This project is built using modern web standards for speed and reliability:
 - **State Management:** In-memory local cache simulation for rapid UI prototyping
 - **Testing:** Comprehensive Jest & React Testing Library suite automated via GitHub Actions
 
-## 🚀 Getting Started
+## 🚀 Setup Instructions
 
 First, run the development server:
 

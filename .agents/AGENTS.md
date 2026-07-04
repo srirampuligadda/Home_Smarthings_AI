@@ -7,6 +7,6 @@ As an AI agent working on this repository, you are strictly required to adhere t
 
 **Requirements for README updates:**
 1. Ensure the "Key Features" section accurately reflects the current state of the application.
-2. Ensure the "Getting Started" or "Architecture" sections are updated if dependencies, environment variables, or run commands change.
+2. Ensure the "Setup Instructions" or "Architecture" sections are updated if dependencies, environment variables, or run commands change.
 3. Treat documentation as a first-class citizen of the codebase.
 <!-- END:readme-update-rule -->
