@@ -1,5 +1,8 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Home SmartThings AI
 
+[![CI](https://github.com/srirampuligadda/Home_Smarthings_AI/actions/workflows/ci.yml/badge.svg)](https://github.com/srirampuligadda/Home_Smarthings_AI/actions/workflows/ci.yml)
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 ## Getting Started
 
 First, run the development server:
