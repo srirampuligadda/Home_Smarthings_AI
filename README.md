@@ -40,3 +40,17 @@ GEMINI_API_KEY=your_gemini_api_key_here
 SMARTTHINGS_TOKEN=your_smartthings_token_here
 ```
 *(If you leave these empty, the app will automatically run in Simulation Mode).*
+
+### 🐳 Running with Docker
+You can also run the application as an optimized, multi-stage Docker container. This is recommended for production deployments.
+
+1. Build the container:
+```bash
+docker build -t home-smartthings-ai .
+```
+
+2. Run the container (with environment variables):
+```bash
+docker run -p 3000:3000 --env-file .env.local home-smartthings-ai
+```
+Open [http://localhost:3000](http://localhost:3000) to see the containerized application.
